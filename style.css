@@ -16,29 +16,23 @@ body {
     background-image: url('ba2.jpg');
     background-size: cover;
 }
-
 h1 {
-    font-size: 2.4rem;
+    font-size: 1.75rem;
     text-align: center;
-    padding: 5px 0;
+    padding: 18px 0;
     color: #fff;
 }
-
 .container {
-    /* display: flex;*/
     gap: 35px;
     padding: 30px;
 }
-
 .wt-inpt {
     width: 400px;
     margin-left: 35%;
 }
-
 .wt-inpt h3 {
-    margin-left: 100px;
+    margin-left: 25%;
 }
-
 .wt-inpt input {
     height: 46px;
     width: 100%;
@@ -104,7 +98,7 @@ h1 {
     display: none;
 }
 
-.current-weather {
+.weather-data .current-weather {
     height: 12rem;
     color: white;
     border-radius: 5px;
@@ -116,13 +110,11 @@ h1 {
     background: var(--background);
     backdrop-filter: blur(0.8rem);
 }
-
-.details {
+.details{
     display: flex;
     flex-direction: column;
     gap: 3%;
 }
-
 .current-weather h2 {
     font-weight: 700;
     font-size: 1.7rem;
@@ -148,7 +140,7 @@ h1 {
     text-transform: capitalize;
 }
 
-.days-want {
+.days-want{
     color: white;
     font-size: 1.5em;
     background-color: #435dc4;
@@ -159,14 +151,14 @@ h1 {
     margin-top: 1.2%;
 }
 
-.days-want:hover {
+.days-want:hover{
     background-color: #1b41d8;
     cursor: pointer;
     transition: 0.2s ease;
 }
 
-.days-forecast {
-    display: none;
+.days-forecast{
+    display:none;
 }
 
 .days-forecast h2 {
@@ -198,7 +190,6 @@ h1 {
     max-width: 70px;
     margin: 5px 0 -12px 0;
 }
-
 @media (max-width: 1400px) {
     .cards {
         flex-wrap: wrap;
